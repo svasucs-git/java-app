@@ -1,0 +1,11 @@
+name: Java App CI
+on:
+  workflow dispatch:
+    #push:
+    #branches: [ "main" ]
+    #pull_requests:
+   #branches: [ "main" ]
+
+jobs:
+  build:
+    runson: on ubuntu
